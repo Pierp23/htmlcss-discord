@@ -1,0 +1,185 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.container-header-1{
+    padding: 20px 0;
+}
+
+nav{
+    width: calc(100% - 25%);
+    margin: 0px auto;
+    display: flex;
+}
+
+.box-nav{
+    border: 1px dashed black;
+    width: calc(100% / 3);
+    padding: 5px;
+}
+
+#box2{
+    width: calc(100% - 30%);
+    text-align: center;
+}
+
+#box3{
+    text-align: right;
+}
+
+.container-header-2{
+    justify-content: center;
+    display: flex;
+}
+
+
+.header-box-pink{
+    content: "";
+    margin: 20px 0;
+    border: 1px dashed black;
+    width: calc(100% - 50%);
+    height: 250px;
+}
+
+
+/* MAIN */
+.container-main{
+    display: flex;
+}
+
+.grey{
+    background-color: lightgray;
+}
+
+.box-main{
+    display: flex;
+    margin: 20px auto;
+    width: calc(100% - 25%);
+    height: 300px;
+}
+
+#box-main-1{
+    content: none;
+    width: calc(100% - 30%);
+    border: 1px dashed black;
+}
+
+#box-main-2{
+    content: none;
+    width: calc(100% - 60%);
+    border: 1px dashed black;
+}
+
+.flip{
+    flex-direction: row-reverse;
+}
+
+#box-main-end{
+    content: none;
+    border: 1px dashed black;
+    height: 600px;
+}
+
+
+/* FOOTER */
+.container-footer{
+    display: flex;
+}
+
+.box-footer{
+    display: flex;    
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: calc(100% - 25%);
+    height: 350px;
+}
+
+.box-footer-1{
+    content: none;
+    width: calc(100% / 3);
+    border: 1px dashed black;
+}
+
+.box-footer-2{
+    content: none;
+    display: flex;
+    width: 100%;
+    border: 1px dashed black;
+}
+
+.col-box-footer-2{
+    content: none;
+    width: calc(100% / 4);
+    border: 1px dashed white;
+}
+
+.box-bottom-footer{
+    display: flex;
+    margin: 10px auto;
+    width: calc(100% - 25%);
+    justify-content: space-between;
+    height: 40px;
+    
+}
+.nav-footer{
+   background-color: pink;
+   align-self: center;
+   padding: 3px;
+   border: 1px dashed black;
+}
+
+
+
+/* DEBUG */
+header > .container-header-1{
+    background-color: lightblue;
+}
+
+header > .container-header-2{
+    background-color: darkblue;
+}
+
+.header-box-pink{
+    background-color: #EE82EE;
+}
+
+nav{
+    background-color: orange;
+}
+
+#box-main-1{
+    background-color: #1E90FF;
+}
+
+#box-main-2{
+    background-color: pink;
+}
+
+#box-main-end{
+    background-color: green;
+}
+
+.container-footer{
+    background-color: #23272A;
+}
+
+.box-footer{
+    background-color: #20B2AA;
+}
+
+.box-footer-1{
+    background-color:rgb(216, 99, 161)
+}
+
+.box-bottom-footer{
+   background-color: aquamarine;
+}
