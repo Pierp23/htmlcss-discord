@@ -66,14 +66,16 @@ a{
     background-color: white;
 }
 
-
+.btn-purple{
+    background-color: #7289DA;
+    color: white;
+}
 
 
 .container-header-2{
     display: flex;
     background-image: url(../img/jumbo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     color: white;
 }
@@ -174,12 +176,6 @@ a{
 
 }
 
-/* .box-main-end{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
-
 .container-main .stars{
     background-image: url(../img/stars.svg);
     background-size: contain;
@@ -190,8 +186,6 @@ a{
 }
 
 .container-main .btn-purple{
-    background-color: #7289DA;
-    color: white;
     align-self: self-end;
 }
 
@@ -199,6 +193,7 @@ a{
 /* FOOTER */
 .container-footer{
     display: flex;
+    background-color: #23272A;
 }
 
 .box-footer{
@@ -206,26 +201,56 @@ a{
     margin: 10px auto;
     margin-bottom: 20px;
     width: calc(100% - 25%);
-    height: 350px;
+    padding: 20px 0;
+    /* height: 350px; */
 }
 
 .box-footer-1{
-    content: none;
     width: calc(100% / 3);
-    border: 1px dashed black;
 }
 
+.box-footer-1 *{
+    padding: 6px 0;
+}
+
+.box-footer-1 .p-end-1{
+    color: #7289DA;
+    font-size: 30px;
+}
+
+.box-footer-1 img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.box-footer-1 .language{
+    color: white;
+    vertical-align: middle;
+}
+
+.box-footer-1 .icons *{
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
 .box-footer-2{
-    content: none;
     display: flex;
     width: 100%;
-    border: 1px dashed black;
 }
 
 .col-box-footer-2{
-    content: none;
     width: calc(100% / 4);
-    border: 1px dashed white;
+}
+
+.box-footer-2 li{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.link-purple{
+    color: #7289DA;
 }
 
 .box-bottom-footer{
@@ -234,30 +259,15 @@ a{
     width: calc(100% - 25%);
     justify-content: space-between;
     height: 40px;
-    
+   
 }
+
+hr{
+    border-color: #7289DA;
+}
+
 .nav-footer{
-   background-color: pink;
    align-self: center;
    padding: 3px;
-   border: 1px dashed black;
 }
 
-
-
-/* DEBUG */
-.container-footer{
-    background-color: #23272A;
-}
-
-.box-footer{
-    background-color: #20B2AA;
-}
-
-.box-footer-1{
-    background-color:rgb(216, 99, 161)
-}
-
-.box-bottom-footer{
-   background-color: aquamarine;
-}
