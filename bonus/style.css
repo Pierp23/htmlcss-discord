@@ -1,0 +1,289 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+.container-header-1{
+    padding: 20px 0;
+    background-color: #255EE9;
+}
+
+nav{
+    width: calc(100% - 25%);
+    margin: 0px auto;
+    display: flex;
+}
+
+.box-nav{
+    width: calc(100% / 3);
+    display: flex;
+}
+
+#box2{
+    width: calc(100% - 30%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+#box2 li{
+    color: white;
+    padding: 0 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#box2 ul > *{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+    
+
+#box3{
+    justify-content: end;
+    align-items: center;
+}
+
+
+.button{
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+}
+
+.btn-purple{
+    background-color: #7289DA;
+    color: white;
+}
+
+
+.container-header-2{
+    display: flex;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
+
+.header-box-pink{
+    margin: 150px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.container-header-2 h1{
+    padding-bottom: 20px;
+    font-size: 3em;
+
+
+}
+
+.container-header-2 p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.container-header-2 .button{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-header-2 .btn-black{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* MAIN */
+.container-main{
+    display: flex;
+}
+
+.grey{
+    background-color: #DBDBDB;
+}
+
+.box-main{
+    display: flex;
+    margin: 20px auto;
+    width: calc(100% - 25%);
+}
+
+#box-main-1{
+    width: calc(100% - 30%);
+
+}
+
+#box-main-2{
+    width: calc(100% - 60%);
+}
+
+.flip{
+    flex-direction: row-reverse;
+}
+
+.box-main-end{
+    margin: 20px auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.box-main p{
+    margin-top: 30px;
+}
+
+.box-main .p-1{
+    font-size: 38px;
+}
+
+.box-main .p-2{
+    font-size: 14px;
+}
+
+.box-main-end .p-1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.box-main-end .p-2{
+    font-size: 15px;
+}
+
+.box-main-end .p-3{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.container-main .stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.container-main .btn-purple{
+    align-self: self-end;
+}
+
+
+/* FOOTER */
+.container-footer{
+    display: flex;
+    background-color: #23272A;
+}
+
+.box-footer{
+    display: flex;    
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: calc(100% - 25%);
+    padding: 20px 0;
+    /* height: 350px; */
+}
+
+.box-footer-1{
+    width: calc(100% / 3);
+}
+
+.box-footer-1 *{
+    padding: 6px 0;
+}
+
+.box-footer-1 .p-end-1{
+    color: #7289DA;
+    font-size: 30px;
+}
+
+.box-footer-1 img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.box-footer-1 .language{
+    color: white;
+    vertical-align: middle;
+}
+
+.box-footer-1 .icons *{
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+.box-footer-2{
+    display: flex;
+    width: 100%;
+}
+
+.col-box-footer-2{
+    width: calc(100% / 4);
+}
+
+.box-footer-2 li{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.link-purple{
+    color: #7289DA;
+}
+
+.box-bottom-footer{
+    display: flex;
+    margin: 10px auto;
+    width: calc(100% - 25%);
+    justify-content: space-between;
+    height: 40px;
+   
+}
+
+hr{
+    border-color: #7289DA;
+    size: 1000px;
+}
+
+.nav-footer{
+   align-self: center;
+   padding: 3px;
+}
+
+/* DEBUG */
+.wave{
+    width: 100%;
+    filter: opacity(0.1) drop-shadow(0 0 0 gray);
+    margin:-3.8px 0;
+}
+
+.wave-2{
+    rotate: 180deg;
+    margin: 0;
+}
+
+.wave-3{
+    margin: -3px 0;
+}
