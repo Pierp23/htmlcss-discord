@@ -13,6 +13,7 @@ body{
 /* HEADER */
 .container-header-1{
     padding: 20px 0;
+    background-color: #255EE9;
 }
 
 nav{
@@ -22,33 +23,91 @@ nav{
 }
 
 .box-nav{
-    border: 1px dashed black;
     width: calc(100% / 3);
-    padding: 5px;
+    display: flex;
 }
 
 #box2{
     width: calc(100% - 30%);
     text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
+#box2 li{
+    color: white;
+    padding: 0 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#box2 ul > *{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+    
 
 #box3{
-    text-align: right;
+    justify-content: end;
+    align-items: center;
 }
+
+
+.button{
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+}
+
+
+
 
 .container-header-2{
-    justify-content: center;
     display: flex;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
 }
-
 
 .header-box-pink{
-    content: "";
-    margin: 20px 0;
-    border: 1px dashed black;
+    margin: 150px auto;
     width: calc(100% - 50%);
-    height: 250px;
+    text-align: center;
 }
+
+.container-header-2 h1{
+    padding-bottom: 20px;
+    font-size: 3em;
+
+
+}
+
+.container-header-2 p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.container-header-2 .button{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-header-2 .btn-black{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+
 
 
 /* MAIN */
@@ -140,21 +199,6 @@ nav{
 
 
 /* DEBUG */
-header > .container-header-1{
-    background-color: lightblue;
-}
-
-header > .container-header-2{
-    background-color: darkblue;
-}
-
-.header-box-pink{
-    background-color: #EE82EE;
-}
-
-nav{
-    background-color: orange;
-}
 
 #box-main-1{
     background-color: #1E90FF;
