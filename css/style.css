@@ -123,29 +123,76 @@ a{
     display: flex;
     margin: 20px auto;
     width: calc(100% - 25%);
-    height: 300px;
 }
 
 #box-main-1{
-    content: none;
     width: calc(100% - 30%);
-    border: 1px dashed black;
+
 }
 
 #box-main-2{
-    content: none;
     width: calc(100% - 60%);
-    border: 1px dashed black;
 }
 
 .flip{
     flex-direction: row-reverse;
 }
 
-#box-main-end{
-    content: none;
-    border: 1px dashed black;
-    height: 600px;
+.box-main-end{
+    margin: 20px auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.box-main p{
+    margin-top: 30px;
+}
+
+.box-main .p-1{
+    font-size: 38px;
+}
+
+.box-main .p-2{
+    font-size: 14px;
+}
+
+.box-main-end .p-1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.box-main-end .p-2{
+    font-size: 15px;
+}
+
+.box-main-end .p-3{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 50%;
+
+}
+
+/* .box-main-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.container-main .stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.container-main .btn-purple{
+    background-color: #7289DA;
+    color: white;
+    align-self: self-end;
 }
 
 
@@ -199,19 +246,6 @@ a{
 
 
 /* DEBUG */
-
-#box-main-1{
-    background-color: #1E90FF;
-}
-
-#box-main-2{
-    background-color: pink;
-}
-
-#box-main-end{
-    background-color: green;
-}
-
 .container-footer{
     background-color: #23272A;
 }
