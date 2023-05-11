@@ -29,14 +29,14 @@ nav{
 
 #box2{
     width: calc(100% - 30%);
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     align-items: center;
 
 }
 #box2 li{
     color: white;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 ul{
@@ -64,6 +64,7 @@ a{
     border-radius: 30px;
     color: black;
     background-color: white;
+    font-weight: bold;
 }
 
 .btn-purple{
@@ -77,6 +78,7 @@ a{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     color: white;
+    background-position: bottom;
 }
 
 .header-box-pink{
@@ -87,14 +89,15 @@ a{
 
 .container-header-2 h1{
     padding-bottom: 20px;
-    font-size: 3em;
+    font-size: 4em;
 
 
 }
 
 .container-header-2 p{
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    line-height: 30px;
 }
 
 .container-header-2 .button{
@@ -191,17 +194,17 @@ a{
 
 
 /* FOOTER */
-.container-footer{
-    display: flex;
+footer{
     background-color: #23272A;
 }
 
 .box-footer{
     display: flex;    
-    margin: 10px auto;
+    margin: 0px auto;
     margin-bottom: 20px;
     width: calc(100% - 25%);
     padding: 20px 0;
+    padding-top: 50px;
     /* height: 350px; */
 }
 
@@ -255,7 +258,9 @@ a{
 
 .box-bottom-footer{
     display: flex;
-    margin: 10px auto;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
     width: calc(100% - 25%);
     justify-content: space-between;
     height: 40px;
@@ -272,18 +277,25 @@ hr{
    padding: 3px;
 }
 
+.hr{
+    content: none;
+    margin: 0 auto;
+    width: calc(100% - 25%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* DEBUG */
 .wave{
+    background-image: url('../img/wave.svg');
+    content: none;
+    display: block;
+    height: 100px;
     width: 100%;
     filter: opacity(0.1) drop-shadow(0 0 0 gray);
-    margin:-3.8px 0;
+    /* margin:-3.8px 0; */
 }
 
 .wave-2{
     rotate: 180deg;
-    margin: 0;
-}
-
-.wave-3{
-    margin: -3px 0;
 }
